@@ -1,19 +1,274 @@
-vendor/
+# =============================================================================
+# NODE.JS & NPM
+# =============================================================================
+
+# Dependencies
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
-# Lock files
-package-lock.json
-yarn.lock
+# Lock files (optional - uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
 
-# Laravel 4 specific
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# =============================================================================
+# ENVIRONMENT & CONFIGURATION
+# =============================================================================
+
+# Environment variables
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Configuration files with sensitive data
+config/local.js
+config/local.json
+config/production.js
+config/production.json
+
+# =============================================================================
+# BUILD & DISTRIBUTION
+# =============================================================================
+
+# Build directories
+build/
+dist/
+out/
+
+# Static file directories (generated)
+.next/
+.nuxt/
+.cache/
+
+# Webpack bundles
+bundle.js
+bundle.js.map
+
+# =============================================================================
+# DATABASE
+# =============================================================================
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Database dumps
+*.sql
+
+# =============================================================================
+# LOGS
+# =============================================================================
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# =============================================================================
+# TESTING
+# =============================================================================
+
+# Test coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Jest
+.jest/
+
+# =============================================================================
+# EDITOR & IDE
+# =============================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# WebStorm/IntelliJ
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# =============================================================================
+# OPERATING SYSTEM
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# =============================================================================
+# PROJECT SPECIFIC - UPLOADS & USER CONTENT
+# =============================================================================
+
+# File uploads (from inventories project)
+files/
+uploads/
+temp/
+tmp/
+
+# User generated content
+public/uploads/
+public/images/uploads/
+
+# =============================================================================
+# PROJECT SPECIFIC - BLOCKCHAIN (TMD)
+# =============================================================================
+
+# Truffle
+build/contracts/
+
+# =============================================================================
+# PROJECT SPECIFIC - SAILS.JS (library_management)
+# =============================================================================
+
+# Sails.js
+.tmp/
+.sailsrc
+
+# =============================================================================
+# PROJECT SPECIFIC - LEGACY & VENDOR
+# =============================================================================
+
+# Legacy vendor directory
+vendor/
+
+# Laravel specific (legacy)
 bootstrap/compiled.php
 app/storage/
-
-# Laravel 5 & Lumen specific
 bootstrap/cache/
 .env.*.php
 .env.php
-.env
 
-# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
+# Rocketeer PHP deployment
 .rocketeer/
+
+# =============================================================================
+# SECURITY & SECRETS
+# =============================================================================
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.cert
+
+# SSH keys
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# API keys and secrets
+secrets.json
+.secrets
+*.secret
+
+# =============================================================================
+# MISCELLANEOUS
+# =============================================================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+*.temp
