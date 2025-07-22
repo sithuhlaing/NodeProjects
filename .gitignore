@@ -1,6 +1,10 @@
 vendor/
 node_modules/
 
+# Lock files
+package-lock.json
+yarn.lock
+
 # Laravel 4 specific
 bootstrap/compiled.php
 app/storage/
