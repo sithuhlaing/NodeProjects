@@ -22,7 +22,7 @@
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "pug": "~3.0.1",
-    "sequelize": "^6.37.7",
+    "sequelize": "^6.37.8",
     "serve-favicon": "~2.4.2"
   },
   "devDependencies": {
